@@ -1,0 +1,409 @@
+{
+   "checksum": "e31ac14987d359132c27a0d07a73c712",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13229092225570307",
+               "date_last_used": "13352592366641100",
+               "guid": "f5ab3b5f-4448-4e70-9133-45f10220a432",
+               "id": "20",
+               "name": "Beautiful Free Images & Pictures | Unsplash",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://unsplash.com/"
+            }, {
+               "date_added": "13232643406137226",
+               "date_last_used": "13352817686804214",
+               "guid": "03b16f82-fd3c-4fb2-af45-31cfad9f7f28",
+               "id": "21",
+               "name": "Free stock photos · Pexels",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.pexels.com/"
+            }, {
+               "date_added": "13239723331826147",
+               "date_last_used": "0",
+               "guid": "dc400353-aaaf-45e9-aad3-a83bf08bc702",
+               "id": "22",
+               "name": "Awesome Wallpapers - wallhaven.cc",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://wallhaven.cc/"
+            }, {
+               "date_added": "13242501357351021",
+               "date_last_used": "0",
+               "guid": "86c8df6a-9db2-49dd-b612-897b8930f11c",
+               "id": "23",
+               "name": "Free Google Slides",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://slidesgo.com/"
+            }, {
+               "date_added": "13261418939883009",
+               "date_last_used": "0",
+               "guid": "218741b3-f2db-424b-a920-2c67b4230bd9",
+               "id": "24",
+               "name": "Canva",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.canva.com/"
+            }, {
+               "date_added": "13287263352685069",
+               "date_last_used": "0",
+               "guid": "43eae5f5-06b8-4f45-a399-06ea006a4edd",
+               "id": "25",
+               "name": "ArtStation - Explore",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.artstation.com/?sort_by=community"
+            }, {
+               "date_added": "13307554877036134",
+               "date_last_used": "0",
+               "guid": "1bb1396c-09cd-4476-a7e9-7166933d6f1f",
+               "id": "26",
+               "name": "LottieFiles - Download Free Lottie Animations, Integrations & Plugins",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://lottiefiles.com/"
+            } ],
+            "date_added": "13284425516425740",
+            "date_last_used": "0",
+            "date_modified": "13307554877036134",
+            "guid": "cac941ab-46fc-42eb-86a9-262b80e30b98",
+            "id": "19",
+            "name": "FX",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13257561602603247",
+               "date_last_used": "0",
+               "guid": "94c31cee-c660-4739-8fbf-89f43c184fd8",
+               "id": "28",
+               "name": "SoloLearn",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.sololearn.com/profile/7098158"
+            }, {
+               "date_added": "13256249682785354",
+               "date_last_used": "0",
+               "guid": "d107a3fe-de51-441d-843a-67afeeffbb49",
+               "id": "29",
+               "name": "Problemset - Codeforces",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://codeforces.com/problemset?order=BY_RATING_ASC"
+            }, {
+               "date_added": "13236980808599432",
+               "date_last_used": "0",
+               "guid": "ce61a83d-a0f1-4dfd-834d-c9fb0cba13c2",
+               "id": "30",
+               "name": "URI Online Judge",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.urionlinejudge.com.br/judge/en"
+            }, {
+               "date_added": "13276469851726207",
+               "date_last_used": "0",
+               "guid": "571d5997-eb9c-440e-a767-3df34e8f94c2",
+               "id": "31",
+               "name": "Learn Python with Tutorials, Exercises, and Quizzes",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://pynative.com/"
+            }, {
+               "date_added": "13292620614745567",
+               "date_last_used": "13350765755912059",
+               "guid": "9355b229-ab4b-44c0-9d61-af50419789ba",
+               "id": "32",
+               "name": "Chatbot",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://pythonprogramming.net/training-model-chatbot-deep-learning-python-tensorflow/?completed=/training-dataset-chatbot-deep-learning-python-tensorflow/"
+            } ],
+            "date_added": "13330083248530818",
+            "date_last_used": "0",
+            "date_modified": "13330083248530818",
+            "guid": "668b55ee-4244-4b54-b1e1-2105d6065ef1",
+            "id": "27",
+            "name": "Progrmming",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13290692154248340",
+               "date_last_used": "0",
+               "guid": "f6c0ae70-6582-417a-bad0-542c0fc0d343",
+               "id": "34",
+               "name": "Student Portal",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://studentportal.diu.edu.bd/#/dashboard1"
+            }, {
+               "date_added": "13235431476759130",
+               "date_last_used": "13354266445781410",
+               "guid": "17f773e5-b7b8-4881-8546-dc26cbbb07e9",
+               "id": "35",
+               "name": "BLC",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://elearn.daffodilvarsity.edu.bd/login/"
+            }, {
+               "date_added": "13230030214324090",
+               "date_last_used": "13314462119787000",
+               "guid": "77d5ff7f-1cae-4faa-8ef9-b114dd151e68",
+               "id": "36",
+               "name": "ClassesDIU",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://classroom.google.com/"
+            } ],
+            "date_added": "13330083248546571",
+            "date_last_used": "0",
+            "date_modified": "13330083248546571",
+            "guid": "c4c0ee0c-e726-46c1-a6b6-b2fd21d12228",
+            "id": "33",
+            "name": "DIU",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "date_added": "13240238376516861",
+            "date_last_used": "13354127475890360",
+            "guid": "02d8f859-3d39-4de9-b1ac-d44bad6f9d8f",
+            "id": "37",
+            "name": "Drive",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://drive.google.com/drive/u/1"
+         }, {
+            "date_added": "13228161855078999",
+            "date_last_used": "13354038342633786",
+            "guid": "b25bb79d-f435-4854-bd55-00a2f92ef5a6",
+            "id": "38",
+            "name": "Mail",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/1"
+         }, {
+            "date_added": "13280162728454665",
+            "date_last_used": "13340907106817698",
+            "guid": "a4cf3385-280d-4115-ab7a-284e27d0a45a",
+            "id": "39",
+            "name": "Meet",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://meet.google.com/"
+         }, {
+            "date_added": "13333629051758370",
+            "date_last_used": "0",
+            "guid": "6744a850-b047-417f-8119-c7b5d5fcdaca",
+            "id": "40",
+            "name": "Google Careers",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://careers.google.com/how-we-hire/#step-self-reflection"
+         }, {
+            "date_added": "13278709059985662",
+            "date_last_used": "13354874607607144",
+            "guid": "7102bed4-087b-41e4-be80-316eedaf6812",
+            "id": "41",
+            "name": "GitHub",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://github.com/zionmezba?tab=repositories"
+         }, {
+            "date_added": "13349546575284260",
+            "date_last_used": "13355772202444349",
+            "guid": "246c804d-ae09-4410-ac5c-dda6b5a16526",
+            "id": "42",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Riyotex | Trello",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://trello.com/b/4j0hfrSM/riyotex"
+         } ],
+         "date_added": "13356265886517710",
+         "date_last_used": "0",
+         "date_modified": "13349546575284260",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13235776966157467",
+               "date_last_used": "0",
+               "guid": "c1c728fb-941c-4bab-a063-3da73d856856",
+               "id": "8",
+               "name": "Jeffrey Friedl's Image Metadata Viewer",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://exif.regex.info/exif.cgi"
+            }, {
+               "date_added": "13235776992709067",
+               "date_last_used": "0",
+               "guid": "43304892-c8d9-4dfb-b554-50b4568cedbe",
+               "id": "9",
+               "name": "DomainBigData.com - Online investigation tools",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://domainbigdata.com/"
+            }, {
+               "date_added": "13235777232837349",
+               "date_last_used": "0",
+               "guid": "dbc0ff34-1544-43e1-9adb-dffc00026a4d",
+               "id": "10",
+               "name": "Network Tools From MxToolBox",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://mxtoolbox.com/NetworkTools.aspx"
+            }, {
+               "date_added": "13235777537709477",
+               "date_last_used": "0",
+               "guid": "851e18da-f3bf-40a8-b45c-e43c2dc1eeef",
+               "id": "11",
+               "name": "Forensically, free online photo forensics tools - 29a.ch",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://29a.ch/photo-forensics/#forensic-magnifier"
+            }, {
+               "date_added": "13243643838231464",
+               "date_last_used": "0",
+               "guid": "18a7e19f-451f-472f-8203-01382d5940cb",
+               "id": "12",
+               "name": "Online YouTube Video and Playlist Converter",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://loader.to/"
+            } ],
+            "date_added": "13284425516422295",
+            "date_last_used": "0",
+            "date_modified": "13284425516422295",
+            "guid": "cc82c07c-aba7-4e53-a145-c5e9e30697e1",
+            "id": "7",
+            "name": "Hacking ",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "date_added": "13236624302100735",
+            "date_last_used": "0",
+            "guid": "cf049b5e-9be2-4684-adc8-03a9a676698b",
+            "id": "13",
+            "name": "Cooderly",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "http://cooderly.unaux.com/"
+         }, {
+            "date_added": "13325455212407538",
+            "date_last_used": "0",
+            "guid": "8fc0f068-5c29-41ec-8042-8d14bd0449db",
+            "id": "14",
+            "name": "ArtStation - OpenGL Project",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.artstation.com/artwork/YKvJQX"
+         }, {
+            "children": [ {
+               "date_added": "13331494511915561",
+               "date_last_used": "0",
+               "guid": "aeb09109-7971-40b4-9250-899a43733580",
+               "id": "16",
+               "name": "Image Bulk",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.imgtools.co/resize-image"
+            }, {
+               "date_added": "13339405175319537",
+               "date_last_used": "0",
+               "guid": "57a46312-b0a1-45ea-bbf7-450b6e6da921",
+               "id": "17",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Speech Recognition Using Python",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://www.smartaitechnologies.com/Speech-Recognition-Using-Python.html"
+            }, {
+               "date_added": "13350429908331372",
+               "date_last_used": "0",
+               "guid": "23ef5fd0-de8b-49d3-98ac-4c9b92dbc06d",
+               "id": "18",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "food value - v1 2024-01-23 2:42am",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://app.roboflow.com/test-rc8af/food-value/1"
+            } ],
+            "date_added": "13331494537121821",
+            "date_last_used": "0",
+            "date_modified": "13350429908331372",
+            "guid": "43727117-0f6e-4e45-9faf-c17364d4695a",
+            "id": "15",
+            "name": "Research Tool",
+            "source": "unknown",
+            "type": "folder"
+         } ],
+         "date_added": "13356265886517713",
+         "date_last_used": "0",
+         "date_modified": "13325455212407538",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13356265886517715",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCDupxY6OAQAAEgAqGHFkcVJyTmFSTDJnSkM0QVRtTkdzYlE9PUgDoAYMEqkBCCkSpAEKHE5TNmwvUFZtaTM3ZVZVVzd6WDZDNHlHaUhhdz0SJDcxMDJiZWQ0LTA4N2ItNDFlNC1iZTgwLTMxNmVlZGFmNjgxMhgAIAIoAjC50pb26DE4+Jnmh4MwQP7HlvboMUocOGZqSTloWUlQS0pFKzV5eEtUcWZUOXN5cnNFPVogIh7//0dubW5Cdms3ODN6WVllc3pyQ3BMbFFJWFpFOD1lwKUouhKpAQgnEqQBChxBM1c2MW9mVUkwcWNJbTlLNiszMm16TVJUWG89EiRhNGNmMzM4NS0yODBkLTQxMTUtYWI3YS0yODRlMjdkMGE0NWEYACACKAIwuNKW9ugxONSz64eDMED9x5b26DFKHEFNZVNycDI2VzZtbjR2ZHRwT2hmUkV6N0Q5az1aICIe//tENjd2KzcxeEZ2Mk51K0xmMTgzeExFNUxKaWM9ZfQi9RsSqQEIJhKkAQocQm1HNXBXcndNcXhibHRNcHgxVC9lSENmcXUwPRIkYjI1YmI3OWQtZjQzNS00ODU0LWJkNTUtMDBhMmY5MmVmNWE2GAAgAigCMLfSlvboMTjQoeaHgzBA/ceW9ugxShx0V2hWUXA5Y1U4VDhlM1l2MUdvUFJxc21Gc289WiAiHv/5S2FNTk1iWmlqTU1SUUZ1SGNSOThDUG0zVm5zPWWbPYW2EqcBCCQSogEKHDJCTTRlcDlrWlpENWhIazhiYWxWR0Npbk1Oaz0SJDc3ZDVmZjdmLTFjYWUtNGZhYS04ZWY5LWIxMTRkZDE1MWU2OBgAIAAoADDXm8uYzTA4oqbmh4MwQKKm5oeDMEocNlo0RXZjRm1NR3M3dkVad3I2RHlzWjM2WjNvPVoeIhx6Q1R4cWl6a2ZYVTZldVZkVHlEbkRwMktpVmc9ZQtRbGcSpwEIIxKiAQocYW1COXJUV2c2NEJJaWFQTzdMTkVIZkEvT05VPRIkMTdmNzczZTUtYjdiOC00ODgxLTg1NDYtZGMyNmNiYmIwN2U5GAAgACgAMLjW4bzhMTifuuiHgzBAn7roh4MwShxrWjRXNXd1RjNSdEdGSk9sdkhuelNSZXcvRkE9Wh4iHG4xMkhzVElCRGtJRkZnblUxTGdDQk9QOHBVZz1l8lrR0BKnAQgiEqIBChxyQkVILzllOXczbVZPU3FhUVlGc0YxaG8xSms9EiRmNmMwYWU3MC02NTgyLTQxN2EtYmFkMC01NDJjMGZjMGQzNDMYACAAKAAworif0uAxOImy64eDMECJsuuHgzBKHC84UzVxUldybThOK1R4V1R4M2hyUUpLVVVndz1aHiIcUlpWMW5JVFJseGg2Mm5mc3lYaDZ2UmVFVERFPWXR4eipEqkBCCESpAEKHGIvU3R5TDdibldGN0l2VlRRMjdCb3h3RzNyMD0SJGM0YzBlZTBjLWU3MjYtNDZjMS1hNmI2LWIyZmQyMWQxMjIyOBgAIAAoADCZo/iLsDE4jKjmh4MwQIyo5oeDMEocUzFmWlVLWmJobHJ5TEQ4TitKZXpFSlhSM3dRPVogIh7/3FZzcVQzOEFQZ0o4aTNQM2VHQVlkM1E3Mjhmbz1lAAAAABKpAQggEqQBChxUVWVXa2N5aFNhZ053OC84Mi9qaGdpc3A4VzA9EiQ5MzU1YjIyOS1hYjRiLTQ0YzAtOWQ2MS1hZjUwNDE5Nzg5YmEYACAAKAAwp+LAt9QxOOb764eDMEDm++uHgzBKHDZRMXhPWDBSc09uTG5USjNHbkZzUmFhMkNuWT1aICIe//9LTzM5RjhlQXJvWHVFcGRJenFZMU1Xem15TEk9Zer7HNMSqQEIGhKkAQocTFlrS2NQa1o3a3R3ZnNBZGZaS1FnWGptKzVBPRIkMWJiMTM5NmMtMDljZC00NDc2LWE3ZTktNzE2NjkzM2Q2ZjFmGAAgACgAMPCupMXcMTiM4Pm6szBAjOD5urMwShxvRWw2UVFkRkVZSWZTYXhoNktCWjNINHg3bXM9WiAiHv/ReDBwNXpKTzZSeWg3SVVhSTN1SXlFU3VwRlg4PWUcFO/gEqkBCCUSpAEKHEdGc0lEc0c2K2tIc1IwYkdtaDhya2dzcGswWT0SJDAyZDhmODU5LTNkMzktNGRlOS1iMWFjLWQ0NGJhZDZmOWQ4ZhgAIAIoAjC10pb26DE4rpjsh4MwQPzHlvboMUocR0NUNmlENU5DZWNGV2g2VlNyN1luY0NoSnlzPVogIh7/90cxMlp1Zi9keUJ5MVpnekhTbSt0STZOR0hXOD1l+pHe2xKoAQgeEqMBChxnUDFUZm9TUjFCQkg2R2xXQWRwc3VUOGtKTnc9EiRjZTYxYTgzZC1hMGYxLTRkZmQtODM0ZC1jOWZiMGNiYTEzYzIYACAAKAAwybmm/YkwOJue5oeDMECbnuaHgzBKHG0ray9yYWtGZDZLci8wQ1hiNFYwNzFuWkVEbz1aHyId3WpPOTdjbzhhN3FhMTJYN2I3Smk3U2YzZjdMZz1lKYhPgxKoAQgYEqMBChxlTlEyUmxDQjdyalM3WG4yZytYV1Q2Y1ViMG89EiQyMTg3NDFiMy1mMmRiLTQyNGItYTkyMC0yYzY3YjQyMzBiZDkYACAAKAAw6pPo/uQvONaf5oeDMEDWn+aHgzBKHFgrOHN2c3V3NXpuYlJEbFlnZm84aWNBdUM5bz1aHyId/0RUNXc2V1lNOTFSMUxlWFpwWmgvSlRUVEN5ST1lzuVKWhKoAQgXEqMBChxpcHpyWlQ5TlRBbjZWTm1wbXRCRFJ1bWxDZTg9EiQ4NmM4ZGY2YS05ZGIyLTQ5ZGQtYjYxMi04OTdiODkzMGYxMWMYACAAKAAw6pPo/uQvOOOg5oeDMEDjoOaHgzBKHEJZZk9nWmMwSXlVd0JKLzM3RGNDZ2hDeXVJdz1aHyId/XU3cFNLS01JdmV0WjMzZWNFaWZabEV0ZkNwcz1l0rG74RKpAQgqEqQBChwyMDA2TEtsQkViRVBmR0xYQmluLzlseHVrSDQ9EiQyNDZjODA0ZC1hZTA5LTQ0MTAtYWM1Yy1kZGE2YjVhMTY1MjYYACACKAIwttKW9ugxONG7k/LPMUD/x5b26DFKHGZPK0hzUGp3QXpqRHRpSFdjMFFUeHgyVWMyaz1aICIe//9mQ04rZkpHSDdWRk15c0NmcmdqS1R1TlVaQXM9ZUPbkSwSqAEIDRKjAQocMXlvK0NVMFprOEt5YVRyYmJva09QQmEzK1NjPRIkY2YwNDliNWUtOWJlMi00Njg0LWFkYzgtMDNhOWE2NzY2OThiGAAgACgAMPeN8reQMDirqOaHgzBAq6jmh4MwShxnVDB4SENjVjJSeStkNFNQaWJzelY0L1htUDA9Wh8iHftFWWZuNXdhS2JESlEyUDdXR0d1Zk5XTjVRejA9ZXvxyCoSpwEIExKiAQocVFpxYUdUdE9ydTU3VzZocHVna0k0WDR1S2JBPRIkY2FjOTQxYWItNDZmYy00MmViLTg2YTktMjYyYjgwZTMwYjk4GAAgACgAMOqT6P7kLziPouaHgzBAj6Lmh4MwShxZUWJQMHU4eGx2am45WEFuVjM5VENvTmlnT2s9Wh4iHGRUWFhlSlZxTzZCaTdnY3FTMXlsdU1QZzNldz1lAAAAABKoAQgdEqMBChxrWkpIemU2YUMrUkJkNEVUV2tVb2VQdi9zSzg9EiRkMTA3YTNmZS1kZTUxLTQ0MWQtODQzYS02N2FmZWVmZmJiNDkYACAAKAAwzu3n/uQvOLqe5oeDMEC6nuaHgzBKHHFEb1pDNkZHcWZWUUt1cUFNamRPSHlKZHB2OD1aHyIduzFmSW84a1l4NElEY0RyR3d5MTBEcFdWU1AyTT1lI/thaBKnAQgcEqIBChxkYXpxVHREY2o3T3drYVB0N2dIWnM5dVh0eFk9EiQ5NGMzMWNlZS1jNjYwLTQ3MzktOGZiZi04OWY0M2MxODRmZDgYACAAKAAwzu3n/uQvONyd5oeDMEDcneaHgzBKHFVMMks5ZmViMmltMmxXT3V2NDBWdXV5L1JZbz1aHiIcdlJBUElUNHhZemNCQlZHeUh5VnlBUmo0VmZzPWWPBGE6EokBCAIShAEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJGY3MDQ4MmU3LTQ5MTktNTY0Yi04NjU5LTk4MGRjMjY5ZWMzMhgAIAAoADCws4LxsDA4sJfmh4MwQLCX5oeDMEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAASpwEICRKiAQocSUg0OEJaTnN4UWNRNEU0RXUzSHZMSkZtZmRFPRIkNDMzMDQ4OTItYzhkOS00ZGZiLWI1NTQtNTBiNDU2OGNlZGJlGAAgACgAMOqT6P7kLziFoOaHgzBAhaDmh4MwShxTMlNXMVg5UXRkVVVtMlNoMmpyUUhuYmJ5Unc9Wh4iHGsrZU9tTDhLL1RPNUJJZEE0dXJmRjRqOE90Zz1lvRlyJxKnAQgHEqIBChxKNGw0d1IwS0g4WjVxZlROWisycWtiK3B3Tkk9EiRjYzgyYzA3Yy1hYmE3LTRlNTMtYTE0NS1jNWU5ZTMwNjk3ZTEYACAAKAAw6pPo/uQvOMek5oeDMEDHpOaHgzBKHDN1eVNrWnFzUXpQUnpNcmpVa1o1NkJHc3JtRT1aHiIcbWE5RHhKSm9wUXBmL0JEbE4xVzlGeFd3R3FBPWUAAAAAEokBCAEShAEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJDc1NWYwZmFiLWM1MzEtNThjMC05MTY2LWQ4NzIxODI4NTM3YRgAIAAoADCws4LxsDA44Zbmh4MwQOGW5oeDMEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAASqAEIEhKjAQoceDM4ZkpoKzFXOGkreFNrWjN0NFFKREQvQVdRPRIkMjNlZjVmZDAtZGU4Yi00OWQzLTk4YWMtNGM5YjkyZGJjMDZkGAAgACgAMLyQrpfTMTiG962X0zFAhvetl9MxShxqTTYzbFVMUlYxL012T0N3cHMwSWIrNmkzNzA9Wh8iHd56U2FlL0xLTEIxeGFHeE5lWmlpQU82ZHdPdGc9ZfbpqA8SqAEIFRKjAQocTUQ3K0lLS2h1bEhBT2ovdFhscFJOd2h6Mko0PRIkMDNiMTZmODItZmQzYy00ZmIyLWFmNDUtMzFjZmFkOWY3ZjI4GAAgACgAMKK5+IncMTiYn+aHgzBAmJ/mh4MwShxQOTNBcUcrNFNPY1lVcnh3U3JXajRDdjVXMzA9Wh8iHbRSZFlzUHRNV0NvcFZlT1VicTVjM1JaTGJld2c9ZeX7lloSqAEIHxKjAQocaXNjL1dlOU5kZVlvb21OMlFnbW1GNFFhS2dNPRIkNTcxZDU5OTctZWI5Yy00NDBlLWE3NjctM2RmMzRlOGY5NGMyGAAgACgAMM7t5/7kLziqmeaHgzBAqpnmh4MwShx6Q0lFeEpvOGFvMkQ5VUZNREFtRDVFSkFCYlk9Wh8iHf93L0lmTkhoN2t1MFRUYmdnd3REQ2VrMEVERlk9ZduBZvISqAEIERKjAQocVXl4UkhrdnBsU1lyOGhnRy9JZHdWSHd3YzE0PRIkNTdhNDYzMTItYjBhMS00NWVhLWJiZjctNDUwYjZlNmRhOTIxGAAgACgAMKHorY6qMTipzq2OqjFAqc6tjqoxShx6TkpRR2tZbGVISS84MUQ1YmhheWpqMC9MQVE9Wh8iHbxSSUhJZ0FEQ3hqS1E4THN5NzlpSDF5K09KaXc9ZQAAAAASqQEIDxKkAQocdU1yczBFODhmN1BXei9pUGpQa3RBTEtwcTdJPRIkNDM3MjcxMTctMGY2ZS00ZTQ1LTlmYWYtYzE3MzY0ZDQ2OTVhGAAgACgAMLLOotKMMTif1qLSjDFAn9ai0owxShxlRC8yYlc4ekpsb0JWc1pCd1NrV3J4ZVVwL289WiAiHv/1TWN6ZUNaZVNWMkZhM0MvbDc4TTNpK05OTGgwPWUAAAAAEqkBCCgSpAEKHDBER2k4ekN6alV5S0pHT1lNaHJXWG1PSmVWND0SJDY3NDRhODUwLWIwNDctNDE3Zi04MTE5LWM3YjVkNWZjZGFjYRgAIAIoAjC00pb26DE4w4qLzJQxQP7HlvboMUocL2RXYTVDcFZKVlNFMkEweVcwZExydDF1bEJVPVogIh7//nE3ckNuSlphUW41U1duRm5YMzNKaGM4Qng3TT1lEDD/5BKoAQgWEqMBChxvYTBENXBwU2hONlBUSTg0V2tIMEZCMWM0NHM9EiRkYzQwMDM1My1hYWFmLTQ1ZTktYWFkMy1hODNiZjA4YmM3MDIYACAAKAAw6pPo/uQvOKWl5oeDMEClpeaHgzBKHDllVVA5YzhKY0Fuc0kyOXBKbXQ4Mm5lOW9mZz1aHyId+2dIOUVBdUM0Mm5mR1JldU80ZEhIMlIrVklWaz1lfn1MKBKoAQgMEqMBChxnVFBEbDZvM3h6VzIvRHhBL0QwRmtGVzVvTzg9EiQxOGE3ZTE5Zi00NTFmLTQ3MmYtODIwMy0wMTM4MmQ1OTQwY2IYACAAKAAw6pPo/uQvOLef5oeDMEC3n+aHgzBKHDhPUVlmdFQ0ZXMvVEFrUkZnSVpUZ1NSNHdlYz1aHyId7XhvM0VadENqVUlzRTkvT0NYUWcySGtWcFBYdz1lmYj6thKoAQgKEqMBChxlV2xrL1dtOUxmRHVNeHdhNUJqaWx0K0FmeWM9EiRkYmMwZmYzNC0xNTQ0LTQzZTEtOWFkYi1kZmZjMDAwMjZhNGQYACAAKAAw6pPo/uQvOIWl5oeDMECFpeaHgzBKHGdYTm1JRzZlaUttYUVTVld2NEQwcG9xRGpqdz1aHyIdtTFKbkJ2M2ZIZW9ac3hrUlI5bWpLWHVLVTUxaz1lUUDvNhKpAQgOEqQBChwvbU1mcWlPWHBwa2lVOTYrbHR1K3lRU1FmeXM9EiQ4ZmMwZjA2OC01YzI5LTQxZWMtODA0Mi04ZDE0YmQwNDQ5ZGIYACAAKAAwpeG/kvYwOIPAv5L2MECDwL+S9jBKHFF3QzBFcE5TcHg3RFJzUG1qR1JZOEl5ekF1OD1aICIe/9RoV1huQ08wZnlYTGFnREhUZ21PY2lKUUQyS0k9ZYW3hrMSqQEIGRKkAQocaHNpYnZ5MVdjVlVUVWxoazBUcWFYajBwYk9rPRIkNDNlYWU1ZjUtMDZiOC00ZjQ1LWEzOTktMDZlYTAwNmE0ZWRkGAAgACgAMKK2mu/nLziAuuiHgzBAgLroh4MwShx6MENhU2lYaFpvQnVRU0R2d2ZIc1N2YWMxdVk9WiAiHv+iQ2ZtV05YYThlSEd5THowWFVWdmZxdTVKQkFzPWUAAAAAEqkBCBsSpAEKHEllaVdWNXVQeVArbnJ2TkI1bWVHdXFBYnEvZz0SJDY2OGI1NWVlLTQyNDQtNGI1NC1iMWUxLTIxMDVkNjA2NWVmMRgAIAAoADCYo/iLsDE4yZnmh4MwQMmZ5oeDMEocbWYzb0NlSnRWYW5XajlraTE2U01tdmx1QTEwPVogIh7/uG5CU3BoQkVHT1ZKQVZJQjJUcmduUzdUblE2WT1lAAAAABKoAQgLEqMBChw2RW5yVmh5QUZiVWpVTGIyRnd4RTVwWkV6UXc9EiQ4NTFlMThkYS1mM2JmLTQwYTgtYjQ1Yy1lNDNjMmRjMWVlZWYYACAAKAAw6pPo/uQvOMOg5oeDMEDDoOaHgzBKHGtFY0JkTDhkblJxUmlxYUdCdWRZWkdTNXR0cz1aHyId2jR5VEptM0srQjZISHYvdDA1blVuSklQTUpqMD1lPXjc0RKnAQgIEqIBChxKdkxabG9JRnVEMm1HYWIvcTBoeklxOXJaaGc9EiRjMWM3MjhmYi05NDFjLTRiYWItYTA2My0zZGE3M2Q4NTY4NTYYACAAKAAw6pPo/uQvOO+h5oeDMEDvoeaHgzBKHFZmUGc0alN2aWpaMDZSOEM4WTNDZHNGdHU4WT1aHiIcWXNnSXdrNlJuanIxczgxaEtFVWdjL0lCc3QwPWWa7mWGEqcBCBQSogEKHEJ5c0dkN2VHQmlyTTVuSVhOOGUybTE3TVh2ND0SJGY1YWIzYjVmLTQ0NDgtNGU3MC05MTMzLTQ1ZjEwMjIwYTQzMhgAIAAoADCNhcCe2zE4tKXmh4MwQLSl5oeDMEocTml1TTE0SFMyc1ZPSDN1VC92Nkx2R2RTMzVJPVoeIhxpM2FERVdCK0tQVjdoS2M5OVRBdDVCSk9ueUE9Zb5aDvwSpwEIEBKiAQocLzgrUjkrTnUwSmdaWEFDRUdRTVlnTzFQOUNRPRIkYWViMDkxMDktNzk3MS00MGI0LTkyNTAtODk5YTQzNzMzNTgwGAAgACgAMLPOotKMMTifk6HSjDFAn5Oh0owxShw4bzJkdVlOQklBSHRSelovYitwaERITi9DTGM9Wh4iHHhkRHRDSkV0eU5KWEZEcVVDWGU4dFhWMVRHRT1l6RlGTBKJAQgDEoQBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQ1MmYwZTViYy0wY2FlLTVkNGYtOWFiZi04ZWQ2N2JhYmFjNTAYACAAKAAwsLOC8bAwOMKW5oeDMEDCluaHgzBKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAMAA4AA==",
+   "version": 1
+}
