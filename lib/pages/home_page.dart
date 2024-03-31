@@ -18,6 +18,9 @@ class ToDoItem {
 }
 
 class _HomePageState extends State<HomePage> {
+  final _controller = TextEditingController();
+  final _descController = TextEditingController();
+
   List<ToDoItem> toDoList = [];
 
   @override
@@ -35,11 +38,20 @@ class _HomePageState extends State<HomePage> {
   }
 
   // Function to add a new item
-  void addNewItem(String title, bool isCompleted, {String? description}) {
-    setState(() {
-      toDoList.add(ToDoItem(
-          title: title, description: description, isCompleted: isCompleted));
-    });
+  void addNewItem() {
+    final title = _controller.text;
+    final description =
+        _descController.text.isEmpty ? '' : _descController.text;
+
+    if (title.isNotEmpty) {
+      setState(() {
+        toDoList.add(ToDoItem(
+            title: title, description: description, isCompleted: false));
+      });
+    }
+    Navigator.of(context).pop();
+    _controller.clear();
+    _descController.clear();
   }
 
   void checkboxChanged(bool? val, int index) {
@@ -52,8 +64,19 @@ class _HomePageState extends State<HomePage> {
     showDialog(
         context: context,
         builder: (context) {
-          return DialogBox();
+          return DialogBox(
+            controller: _controller,
+            onSave: addNewItem,
+            onCancel: () => Navigator.of(context).pop(),
+            descController: _descController,
+          );
         });
+  }
+
+  void deleteTask(int index) {
+    setState(() {
+      toDoList.removeAt(index);
+    });
   }
 
   @override
@@ -68,8 +91,8 @@ class _HomePageState extends State<HomePage> {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: createNewtask,
-          child: Icon(Icons.add),
           backgroundColor: Colors.yellow,
+          child: const Icon(Icons.add),
         ),
         body: ListView.builder(
           itemCount: toDoList.length,
@@ -79,6 +102,7 @@ class _HomePageState extends State<HomePage> {
               isComplete: toDoList[index].isCompleted,
               onChanged: (val) => checkboxChanged(val, index),
               taskDesc: toDoList[index].description ?? '',
+              deleteTask: (value) => deleteTask(index),
             );
           },
         ));
