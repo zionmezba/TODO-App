@@ -16,8 +16,7 @@ class _HomePageState extends State<HomePage> {
   final box = Boxes.getData();
   @override
   void initState() {
-    print(box.get('title'));
-    if (box.get('title') == null || box.get('title') == '') {
+    if (box.values.isEmpty) {
       box.addAll([
         ToDoItem(title: "Add as many as you want", isCompleted: false),
         ToDoItem(
