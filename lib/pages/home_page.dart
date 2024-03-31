@@ -1,7 +1,8 @@
 import "package:flutter/material.dart";
-import "package:hive/hive.dart";
-import "package:todo_app/data/database.dart";
+import "package:hive_flutter/hive_flutter.dart";
+import "package:todo_app/data/boxes/boxes.dart";
 import "package:todo_app/utils/dialogue_box.dart";
+import "package:todo_app/utils/todo_model.dart";
 import "package:todo_app/utils/todo_tile.dart";
 
 class HomePage extends StatefulWidget {
@@ -12,14 +13,18 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final _myBox = Hive.box('mybox');
-  TodoDatabase db = TodoDatabase();
+  final box = Boxes.getData();
   @override
   void initState() {
-    if (_myBox.get("TODOLIST") == null) {
-      db.createInitialData();
-    } else {
-      db.loadData();
+    print(box.get('title'));
+    if (box.get('title') == null || box.get('title') == '') {
+      box.addAll([
+        ToDoItem(title: "Add as many as you want", isCompleted: false),
+        ToDoItem(
+            title: "Swipe right to left",
+            description: "Swipe right to left to delete a task",
+            isCompleted: false),
+      ]);
     }
     super.initState();
   }
@@ -29,30 +34,36 @@ class _HomePageState extends State<HomePage> {
 
   // Function to add a new item
   void addNewItem() {
-    final title = _controller.text;
-    final description =
-        _descController.text.isEmpty ? '' : _descController.text;
+    final data =
+        ToDoItem(title: _controller.text, description: _descController.text);
 
-    if (title.isNotEmpty) {
-      setState(() {
-        db.toDoList.add(ToDoItem(
-            title: title, description: description, isCompleted: false));
-      });
+    if (data.title.isNotEmpty) {
+      box.add(data);
+      data.save();
     }
     Navigator.of(context).pop();
     _controller.clear();
     _descController.clear();
-    db.updateData();
   }
 
-  void checkboxChanged(bool? val, int index) {
+  void updateItem(ToDoItem todos) {
     setState(() {
-      db.toDoList[index].isCompleted = !db.toDoList[index].isCompleted;
+      todos.title = _controller.text.toString();
+      todos.description = _descController.text.toString();
     });
-    db.updateData();
+
+    Navigator.of(context).pop();
+    _controller.clear();
+    _descController.clear();
   }
 
-  void createNewtask() {
+  void checkboxChanged(List<ToDoItem> data, int index) {
+    setState(() {
+      data[index].isCompleted = !data[index].isCompleted;
+    });
+  }
+
+  void createNewtaskDialogueBox() {
     showDialog(
         context: context,
         builder: (context) {
@@ -61,16 +72,30 @@ class _HomePageState extends State<HomePage> {
             onSave: addNewItem,
             onCancel: () => Navigator.of(context).pop(),
             descController: _descController,
+            title: 'Add New',
           );
         });
-    db.updateData();
   }
 
-  void deleteTask(int index) {
-    setState(() {
-      db.toDoList.removeAt(index);
-      db.updateData();
-    });
+  void editTaskDialogueBox(ToDoItem todo) {
+    _controller.text = todo.title;
+    _descController.text = todo.description!;
+    showDialog(
+        context: context,
+        builder: (context) {
+          return DialogBox(
+            title: 'Edit Todo',
+            controller: _controller,
+            onSave: () => updateItem(todo),
+            onCancel: () => Navigator.of(context).pop(),
+            descController: _descController,
+          );
+        });
+    // db.updateData();
+  }
+
+  void deleteTask(ToDoItem todos) async {
+    await todos.delete();
   }
 
   @override
@@ -84,21 +109,28 @@ class _HomePageState extends State<HomePage> {
           centerTitle: true,
         ),
         floatingActionButton: FloatingActionButton(
-          onPressed: createNewtask,
+          onPressed: createNewtaskDialogueBox,
           backgroundColor: Colors.yellow,
           child: const Icon(Icons.add),
         ),
-        body: ListView.builder(
-          itemCount: db.toDoList.length,
-          itemBuilder: (context, index) {
-            return TodoTile(
-              taskName: db.toDoList[index].title,
-              isComplete: db.toDoList[index].isCompleted,
-              onChanged: (val) => checkboxChanged(val, index),
-              taskDesc: db.toDoList[index].description ?? '',
-              deleteTask: (value) => deleteTask(index),
-            );
-          },
-        ));
+        body: ValueListenableBuilder<Box<ToDoItem>>(
+            valueListenable: Boxes.getData().listenable(),
+            builder: (context, box, _) {
+              var data = box.values.toList().cast<ToDoItem>().reversed.toList();
+              return ListView.builder(
+                reverse: false,
+                itemCount: box.length,
+                itemBuilder: (context, index) {
+                  return TodoTile(
+                    taskName: data[index].title,
+                    isComplete: data[index].isCompleted,
+                    onChanged: (val) => checkboxChanged(data, index),
+                    taskDesc: data[index].description ?? '',
+                    deleteTask: (value) => deleteTask(data[index]),
+                    onPressedEdit: () => editTaskDialogueBox(data[index]),
+                  );
+                },
+              );
+            }));
   }
 }

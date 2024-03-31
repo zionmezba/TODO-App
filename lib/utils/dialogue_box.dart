@@ -7,10 +7,12 @@ class DialogBox extends StatelessWidget {
       required this.controller,
       required this.onSave,
       required this.onCancel,
-      required this.descController});
+      required this.descController,
+      required this.title});
 
   final VoidCallback onSave;
   final VoidCallback onCancel;
+  final String title;
 
   final TextEditingController controller;
   final TextEditingController descController;
@@ -18,16 +20,15 @@ class DialogBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
+      title: Text(title),
       backgroundColor: Colors.yellow,
-      content: Container(
+      content: SizedBox(
         height: 220,
         child: Column(
           children: [
             TextField(
               controller: controller,
-          
               decoration: InputDecoration(
-                
                 border:
                     OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
                 hintText: 'Add new task',

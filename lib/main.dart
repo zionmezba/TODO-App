@@ -1,11 +1,15 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:todo_app/pages/home_page.dart';
+import 'package:todo_app/utils/todo_model.dart';
 
-Future<void> main() async {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
   await Hive.initFlutter();
+  Hive.registerAdapter(ToDoItemAdapter());
+  await Hive.openBox<ToDoItem>('todos');
+
   runApp(const MyApp());
 }
 

@@ -8,12 +8,14 @@ class TodoTile extends StatelessWidget {
       required this.isComplete,
       required this.onChanged,
       required this.taskDesc,
-      required this.deleteTask});
+      required this.deleteTask,
+      required this.onPressedEdit});
 
   final String taskName;
   final String taskDesc;
   final bool isComplete;
   final Function(bool?)? onChanged;
+  final Function() onPressedEdit;
   final Function(BuildContext)? deleteTask;
 
   @override
@@ -45,7 +47,7 @@ class TodoTile extends StatelessWidget {
               ),
               const SizedBox(width: 10),
               Expanded(
-                flex: 9,
+                flex: 8,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -64,6 +66,15 @@ class TodoTile extends StatelessWidget {
                                 ? TextDecoration.lineThrough
                                 : TextDecoration.none),
                       ),
+                  ],
+                ),
+              ),
+              Expanded(
+                flex: 1,
+                child: Column(
+                  children: [
+                    IconButton(
+                        onPressed: onPressedEdit, icon: const Icon(Icons.edit)),
                   ],
                 ),
               ),
