@@ -1,4 +1,6 @@
 import "package:flutter/material.dart";
+import "package:hive/hive.dart";
+import "package:todo_app/data/database.dart";
 import "package:todo_app/utils/dialogue_box.dart";
 import "package:todo_app/utils/todo_tile.dart";
 
@@ -9,33 +11,21 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-class ToDoItem {
-  final String title;
-  final String? description; // Optional description
-  bool isCompleted;
-
-  ToDoItem({required this.title, this.description, required this.isCompleted});
-}
-
 class _HomePageState extends State<HomePage> {
-  final _controller = TextEditingController();
-  final _descController = TextEditingController();
-
-  List<ToDoItem> toDoList = [];
-
+  final _myBox = Hive.box('mybox');
+  TodoDatabase db = TodoDatabase();
   @override
   void initState() {
+    if (_myBox.get("TODOLIST") == null) {
+      db.createInitialData();
+    } else {
+      db.loadData();
+    }
     super.initState();
-    setState(() {
-      toDoList.addAll([
-        ToDoItem(
-            title: "Buy groceries",
-            description: "Milk, bread, eggs",
-            isCompleted: false),
-        ToDoItem(title: "Finish report", isCompleted: true),
-      ]);
-    });
   }
+
+  final _controller = TextEditingController();
+  final _descController = TextEditingController();
 
   // Function to add a new item
   void addNewItem() {
@@ -45,19 +35,21 @@ class _HomePageState extends State<HomePage> {
 
     if (title.isNotEmpty) {
       setState(() {
-        toDoList.add(ToDoItem(
+        db.toDoList.add(ToDoItem(
             title: title, description: description, isCompleted: false));
       });
     }
     Navigator.of(context).pop();
     _controller.clear();
     _descController.clear();
+    db.updateData();
   }
 
   void checkboxChanged(bool? val, int index) {
     setState(() {
-      toDoList[index].isCompleted = !toDoList[index].isCompleted;
+      db.toDoList[index].isCompleted = !db.toDoList[index].isCompleted;
     });
+    db.updateData();
   }
 
   void createNewtask() {
@@ -71,11 +63,13 @@ class _HomePageState extends State<HomePage> {
             descController: _descController,
           );
         });
+    db.updateData();
   }
 
   void deleteTask(int index) {
     setState(() {
-      toDoList.removeAt(index);
+      db.toDoList.removeAt(index);
+      db.updateData();
     });
   }
 
@@ -95,13 +89,13 @@ class _HomePageState extends State<HomePage> {
           child: const Icon(Icons.add),
         ),
         body: ListView.builder(
-          itemCount: toDoList.length,
+          itemCount: db.toDoList.length,
           itemBuilder: (context, index) {
             return TodoTile(
-              taskName: toDoList[index].title,
-              isComplete: toDoList[index].isCompleted,
+              taskName: db.toDoList[index].title,
+              isComplete: db.toDoList[index].isCompleted,
               onChanged: (val) => checkboxChanged(val, index),
-              taskDesc: toDoList[index].description ?? '',
+              taskDesc: db.toDoList[index].description ?? '',
               deleteTask: (value) => deleteTask(index),
             );
           },
